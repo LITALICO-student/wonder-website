@@ -1,0 +1,228 @@
+@charset "UTF-8";
+body{
+    background-image: url(./picture/back.png);
+}
+.introduce{
+    background-color: gainsboro;
+}
+
+.menu{
+    display: block;
+    justify-content: center;
+}
+/*ゲームアプリプログラミングコース*/
+.p {
+   background-color: linen;
+    position   : absolute;             /* 指定した分だけ相対的に移動 */
+    cursor   : pointer;                /* カーソルをポインターで表示 */
+    top: 350px;
+    left: 250px;
+  }
+  .apply1 {
+    display: none;                     /* 要素を非表示 */
+  }
+  .apply11{
+    position: absolute;                   /* 親要素を基準 */
+    display: inline;                      /* 要素をインラインとして表示 */
+    padding: 2px;                         /* テキストの前後の余白 */
+    background-color: white;       /* 背景色（透明度） */
+    width:400px;                          /* 吹き出し全体の幅 */
+    left : 1%;                           /* 表示位置 */
+    font-size: 150%;                       /* 文字サイズ */
+  }
+  .appiy1:after{
+    border-left: 10px solid rgba(102, 102, 255, 0.50);   /* 吹き出し口の幅・色 */
+    border-top: 15px solid transparent;     /* 吹き出し口の高さ１／２ */
+    right: -10px;                           /* 吹き出し口の位置調整 */
+    top: 5%;                                /* 吹き出し口の縦位置 */
+    content: "";                       /* コンテンツの挿入 */
+    position: absolute;                /* 親要素を基準 */
+  }
+
+/*ゲームアプリエキスパートコース*/
+  .e {
+   background-color: linen;
+    position   : absolute;     /* 指定した分だけ相対的に移動 */
+    cursor   : pointer;       /* カーソルをポインターで表示 */
+    top: 350px;
+    left: 750px;
+  }
+  .apply2 {
+    display: none;                     /* 要素を非表示 */
+  }
+  .apply22 {
+    position: absolute;                   /* 親要素を基準 */
+    display: inline;                      /* 要素をインラインとして表示 */
+    padding: 2px;                         /* テキストの前後の余白 */
+    background-color: white;       /* 背景色（透明度） */
+    width:400px;                          /* 吹き出し全体の幅 */
+    left : 1%;                           /* 表示位置 */
+    font-size: 150%;                       /* 文字サイズ */
+  }
+  .appiy2:after{
+    border-left: 10px solid rgba(102, 102, 255, 0.50);   /* 吹き出し口の幅・色 */
+    border-top: 15px solid transparent;     /* 吹き出し口の高さ１／２ */
+    right: -10px;                           /* 吹き出し口の位置調整 */
+    top: 5%;                                /* 吹き出し口の縦位置 */
+    content: "";                       /* コンテンツの挿入 */
+    position: absolute;                /* 親要素を基準 */
+  }
+
+/*ロボットクリエイトコース*/
+  .c {
+    background-color: linen;
+     position   : absolute;     /* 指定した分だけ相対的に移動 */
+     cursor   : pointer;       /* カーソルをポインターで表示 */
+     top: 650px;
+     left: 100px;
+   }
+   .robocre {
+     display: none;                     /* 要素を非表示 */
+   }
+   .robocreate {
+     position: absolute;                   /* 親要素を基準 */
+     display: inline;                      /* 要素をインラインとして表示 */
+     padding: 2px;                         /* テキストの前後の余白 */
+     background-color: white;       /* 背景色（透明度） */
+     width:400px;                          /* 吹き出し全体の幅 */
+     left : 1%;                           /* 表示位置 */
+     font-size: 150%;                       /* 文字サイズ */
+   }
+   .robocre:after{
+     border-left: 10px solid rgba(102, 102, 255, 0.50);   /* 吹き出し口の幅・色 */
+     border-top: 15px solid transparent;     /* 吹き出し口の高さ１／２ */
+     right: -10px;                           /* 吹き出し口の位置調整 */
+     top: 5%;                                /* 吹き出し口の縦位置 */
+     content: "";                       /* コンテンツの挿入 */
+     position: absolute;                /* 親要素を基準 */
+   }
+
+   /*ロボットテクニカルコース*/
+  .t {
+    background-color: linen;
+     position   : absolute;     /* 指定した分だけ相対的に移動 */
+     cursor   : pointer;       /* カーソルをポインターで表示 */
+     top: 650px;
+     left: 550px;
+   }
+   .robotech {
+     display: none;                     /* 要素を非表示 */
+   }
+   .robotechnical {
+     position: absolute;                   /* 親要素を基準 */
+     display: inline;                      /* 要素をインラインとして表示 */
+     padding: 2px;                         /* テキストの前後の余白 */
+     background-color: white;       /* 背景色（透明度） */
+     width:400px;                          /* 吹き出し全体の幅 */
+     left : 1%;                           /* 表示位置 */
+     font-size: 150%;                       /* 文字サイズ */
+   }
+   .robotech:after{
+     border-left: 10px solid rgba(102, 102, 255, 0.50);   /* 吹き出し口の幅・色 */
+     border-top: 15px solid transparent;     /* 吹き出し口の高さ１／２ */
+     right: -10px;                           /* 吹き出し口の位置調整 */
+     top: 5%;                                /* 吹き出し口の縦位置 */
+     content: "";                       /* コンテンツの挿入 */
+     position: absolute;                /* 親要素を基準 */
+   }
+  
+
+   .d {
+    background-color: linen;
+     position   : absolute;     /* 指定した分だけ相対的に移動 */
+     cursor   : pointer;       /* カーソルをポインターで表示 */
+     top: 650px;
+     left: 1000px;
+   }
+   .five {
+     display: none;                     /* 要素を非表示 */
+   }
+   .degitalfive {
+     position: absolute;                   /* 親要素を基準 */
+     display: inline;                      /* 要素をインラインとして表示 */
+     padding: 2px;                         /* テキストの前後の余白 */
+     background-color: white;       /* 背景色（透明度） */
+     width:400px;                          /* 吹き出し全体の幅 */
+     left : 1%;                           /* 表示位置 */
+     font-size: 150%;                       /* 文字サイズ */
+   }
+   .five:after{
+     border-left: 10px solid rgba(102, 102, 255, 0.50);   /* 吹き出し口の幅・色 */
+     border-top: 15px solid transparent;     /* 吹き出し口の高さ１／２ */
+     right: -10px;                           /* 吹き出し口の位置調整 */
+     top: 5%;                                /* 吹き出し口の縦位置 */
+     content: "";                       /* コンテンツの挿入 */
+     position: absolute;                /* 親要素を基準 */
+   }
+ 
+
+.photo{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    width: 1425px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: brown;
+    top: 800px;
+} 
+
+.slider{
+    display: grid;
+    width: 1200px; 
+    height: 600px;
+    overflow: hidden;
+}
+ .slider-item{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 1200px;
+    float: left;
+ }
+ .slider-item img{
+    width:1200px;
+    height:600px;
+}
+ 
+ 
+ .slider-inner{
+    width: 4800px;
+    animation: slider 15s infinite ease;
+}
+@keyframes slider{
+    0% {
+        transform: translateX(0);
+        }
+    25% {
+        transform: translateX(-1200px);
+        }
+    50% {
+        transform: translateX(-2400px);
+        }
+    75% {
+        transform: translateX(-3600px);
+        }
+    100% {
+        transform: translateX(0px);
+        }
+}
+
+
+ 
+.map{
+    background-color: rgb(241, 163, 59);
+    display: grid;
+    position: relative;
+    justify-content: center;
+    top:800px;
+}
+.detail{
+    background-color: gainsboro;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    top:800px;
+}
+
+

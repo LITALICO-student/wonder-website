@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="aqa">
+   <head>
+     <meta charset="UTF-8">
+     <title>LITALICOワンダー渋谷校ホームページ</title>
+     <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+    <header>
+        <div class="school">
+        <h1 style="text-align: center">LITALICOワンダー渋谷校</h1>
+        </div>
+        <div class="introduce">
+        <h1 style="text-align: center">教室紹介</h1>
+        <p style="text-align: center;">LITALICOワンダー渋谷はLITALICOワンダー教室の第一号であり、オブジェクトに囲まれた遊び場のような空間で、<br>プログラミングやロボットなどのテクノロジーを用いて作品制作を行うものづくり教室です。オープンな場で幼稚園<br>生から高校生までの生徒がそれぞれ多種多様な作品を作っており入門者から上級者まで楽しく通えるようになってい<br>ます。また、ワンダーメイクフェスの他、様々なイベントが催されており自らのスキルを活かすことができます。
+        </p>
+    </div>
+
+        <h1 style="text-align: center">コース紹介</h1>
+        <div class="menu">
+
+        <div class="p" onclick="game1()"> <h2 style="text-align: center;"> ゲーム＆アプリプログラミングコース</h2>
+            <span class="apply1" id="programing">Scratchを使ったゲーム作りを通じてパソコンの操作に慣れ、プログラミングの基本を学びます。また未就学児のための</span>
+            <script type="text/javascript">
+                function game1(){
+                var wObjballoon	= document.getElementById("programing");
+                if (wObjballoon.className == "apply1"){
+                wObjballoon.className = "apply11";
+                }else{
+                wObjballoon.className = "apply1";
+                }
+                }
+                </script>
+        </div>
+
+        <div class="e" onclick="game2()"> <h2 style="text-align: center;"> ゲーム＆アプリエキスパートコース</h2>
+            <span class="apply2" id="expert">Unityを使ったゲーム作り、HTML/CSS/javascriptを使ったwebサイト作りなどプロも使うツールを用いてより高度で発展的なプログラミングを行います。</span>
+            <script type="text/javascript">
+                function game2(){
+                var wObjballoon	= document.getElementById("expert");
+                if (wObjballoon.className == "apply2"){
+                wObjballoon.className = "apply22";
+                }else{
+                wObjballoon.className = "apply2";
+                }
+                }
+            </script>
+        </div>    
+        
+        <div class="c" onclick="robo1()"> <h2 style="text-align: center;"> ロボットクリエイトコース</h2>
+            <span class="robocre" id="create">ロボットを</span>
+            <script type="text/javascript">
+                function robo1(){
+                var wObjballoon	= document.getElementById("create");
+                if (wObjballoon.className == "robocre"){
+                wObjballoon.className = "robocreate";
+                }else{
+                wObjballoon.className = "robocre";
+                }
+                }
+            </script>
+        </div>
+        <div class="t" onclick="robo2()"> <h2 style="text-align: center;"> ロボットテクニカルコース</h2>
+            <span class="robotech" id="technical">ロボットをプログラミングで</span>
+            <script type="text/javascript">
+                function robo2(){
+                var wObjballoon	= document.getElementById("technical");
+                if (wObjballoon.className == "robotech"){
+                wObjballoon.className = "robotechnical";
+                }else{
+                wObjballoon.className = "robotech";
+                }
+                }
+            </script>
+        </div>
+
+        <div class="d" onclick="degital()"> <h2 style="text-align: center;">デジタルファブリケーションコース</h2>
+            <span class="five" id="fivelication">デジタル</span>
+            <script type="text/javascript">
+                function degital(){
+                var wObjballoon	= document.getElementById("fivelication");
+                if (wObjballoon.className == "five"){
+                wObjballoon.className = "degitalfive";
+                }else{
+                wObjballoon.className = "five";
+                }
+                }
+            </script>
+        </div>
+
+       
+    </div>
+  
+
+<div class="photo">
+    <h1 style="text-align: center">校内風景</h1>
+    <div class="slider">
+    <div class="slider-inner">
+
+    <div class="slider-item">
+        <img src="./picture/IMG_1611.jpg" width="1200px" height="600px"> 
+    </div>
+   
+    <div class="slider-item">
+       <img src="./picture/IMG_1648.jpg" width="1200px" height="600px"> 
+    </div>
+
+    <div class="slider-item">
+        <img src="./picture/IMG_1654.jpg" width="1200px" height="600px"> 
+     </div>
+
+     <div class="slider-item">
+        <img src="./picture/IMG_1653.jpg" width="1200px" height="600px"> 
+     </div>
+
+   </div>
+   </div>    
+</div>
+
+<div class="map">
+    <h1 style="text-align: center">周辺図</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11233.18925973775!2d139.7054822764587!3d35.66492765235737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca614ee45e9%3A0x8893738f6dce1ef2!2z44OX44Ot44Kw44Op44Of44Oz44Kw5pWZ5a6k44O744Ot44Oc44OD44OI5pWZ5a6kIExJVEFMSUNP44Ov44Oz44OA44O8IOa4i-iwtw!5e0!3m2!1sja!2sjp!4v1732094496704!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    <div class="detail">
+        <h1 style="text-align: center">詳細</h1>
+        <li>住所:〒150-0001東京都渋谷区神宮前6-19-21 BCG神宮前PROPERTY 3F</li>
+        <li>電話番号:03-5464-6255</li>
+        <li>時間:火～金12:00～19:00.土日9:00～19:00</li>
+        <li>対象年齢:幼稚園生~高校生</li>
+        <li>アクセス:渋谷駅から徒歩5~10分</li>
+    </div>
+   </body>
